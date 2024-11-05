@@ -1,0 +1,160 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+p {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.head-section {
+  padding: 19px 19px 19px 19px;
+  background-color: hsl(216, 50%, 16%);
+  width: 270px;
+  border-radius: 10px;
+}
+
+.equilibrium {
+  width: 270px;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: aqua;
+  width: 270px;
+  height: 270px;
+  border-radius: 10px;
+  display: none;
+}
+
+.view {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.img-view {
+  width: 60px;
+  height: 60px;
+}
+
+.equilibrium:hover + .image-overlay {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+}
+
+.equilibrium:hover + .image-overlay + .view {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nft-name {
+  color: white;
+  font-weight: 600;
+  width: 132px;
+}
+
+.nft-name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.description {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  width: 251px;
+}
+
+.small-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.eth-div,
+.clock-div {
+  display: flex;
+}
+.ethereum,
+.clock {
+  margin-right: 7px;
+  height: 16px;
+  margin-top: 2px;
+}
+
+.days-left {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+.nft-price {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  color: hsl(178, 100%, 50%);
+  font-weight: 300;
+}
+
+hr {
+  border-color: hsl(215, 32%, 27%);
+  margin-top: 20px;
+}
+
+.creator {
+  display: flex;
+  margin-top: 15px;
+}
+
+.creator-img {
+  object-fit: cover;
+  width: 30px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 1px;
+}
+
+.creator-text {
+  display: flex;
+  align-items: center;
+}
+
+.first-part-of-creator-text {
+  color: hsl(215, 51%, 70%);
+  margin-left: 15px;
+  margin-right: 5px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+}
+
+.second-part-of-creator-text {
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+}
+
+.second-part-of-creator-text:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+  transition: 0.15s;
+}
