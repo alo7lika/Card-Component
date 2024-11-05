@@ -4,7 +4,7 @@
 This project is a single-page web application designed to present information about a specific NFT (Non-Fungible Token) artwork. 
 The webpage is created with HTML and styled using CSS to provide an aesthetically pleasing and informative user experience. Here are the key elements and features of this NFT showcase webpage
 
-![1]()
+![1](https://github.com/alo7lika/Card-Component/blob/main/screenshot.png)
 
 * **Background and Layout:**
 The webpage features a centered layout with a background color of dark blue (hsl(217, 54%, 11%)), creating a visually appealing and balanced backdrop for the content.
